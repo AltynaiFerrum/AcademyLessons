@@ -22,7 +22,7 @@ class LoginActivity : AppCompatActivity() {
             val passwordText = binding.passwordEditText.text.toString()
             when {
                 loginText.isEmpty() -> {
-                    showToast("Заполните поле для ввода логина")
+                    showToast(getString(R.string.fill_in_the_login_input_field))
                 }
 
                 !loginText.contains("@gmail.com") -> {
