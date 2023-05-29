@@ -26,15 +26,15 @@ class LoginActivity : AppCompatActivity() {
                 }
 
                 !loginText.contains("@gmail.com") -> {
-                    showToast("Неправильный ввод логина")
+                    showToast(getString(R.string.incorrect_password))
                 }
 
                 passwordText.isEmpty() -> {
-                    showToast("Заполните поле для ввода пароля")
+                    showToast(getString(R.string.fill_in_the_password_input_field))
                 }
 
                 passwordText.length <= 8 -> {
-                    showToast("Пароль должен содержать не менее 8 символов")
+                    showToast(getString(R.string.Your_password_must_include_a_minimum_of_8_characters))
                 }
 
 

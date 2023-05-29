@@ -2,4 +2,11 @@
     <string name="app_name">AcademyLessons</string>
 
     <string name="fill_in_the_login_input_field"> Заполните поле ввода для логина</string>
+
+    <string name="incorrect_password"> Неправильный ввод логина</string>
+
+    <string name="fill_in_the_password_input_field"> Заполните поле для ввода пароля</string>
+
+    <string name="Your_password_must_include_a_minimum_of_8_characters">Пароль должен содержать не менее 8 символов</string>
+
 </resources>
